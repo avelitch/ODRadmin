@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="ODRadmin.MvcApplication" Language="C#" %>

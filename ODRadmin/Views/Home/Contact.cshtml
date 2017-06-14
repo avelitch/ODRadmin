@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+}
+
+<h2>Contact</h2>
+
+
+@Html.DevExpress().TextBox(settings =>
+{
+    settings.Name = "TextBox";
+    settings.Properties.MaskSettings.Mask = "+375 (99) 000-0000";
+}).GetHtml()
+
+<br/>
+
+@Html.DevExpress().TextBox(settings =>
+{
+    settings.Name = "TextBox1";
+    settings.Properties.NullText = "введите данные";
+}).GetHtml()
+
+<asp:textbox runat="server" />

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ApplicationServices-Web.config Connection String" description="ApplicationServices Connection String used in web.config by the application to access the database." defaultValue="data source=officetehnadzordbserver1.database.windows.net;initial catalog=officeTehnadzordb;user id=oderstock;password=Ave19751202.;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\x\\ODRadmin\\ODRadmin\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationServices']/@connectionString" />
+  </parameter>
+</parameters>

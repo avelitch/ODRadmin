@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Files";
+}
+
+<img src="~/Content/Image/TaxCare.jpg" />
+<h2>Files TaxCare - Andrei Vialichka</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.Action("FileManagerPartial")
+}
